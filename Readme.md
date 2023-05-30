@@ -25,7 +25,7 @@ in the tsconfig.json file enalble the ./src and ./dist in source and ouotdir.
 
 To run the file go to `ts-node-dev` documentation
 
-`yarn add ts-node-dev --dev`
+`yarn add --dev ts-node-dev`
 `yarn add cors`
 
 Then add this to the package.json script file
