@@ -1,6 +1,7 @@
 UM-3 👍Project Setup
 UM-4 👍Setup express,mongoose,cors,parser
 UM-5 👍Setup Eslint,Prettier,Husky,Lint stage
+UM-6 👍Create User Interface and Modules
 **switch branch**
 
 `git checkout UM-3
@@ -65,3 +66,12 @@ npm install --save-dev eslint-config-prettier
 `yarn husky add .husky/pre-commit "npm test"`
 
 `yarn add -D lint-staged`
+
+---
+### UM-6 👍Create User Interface and Modules
+
+[visit this doc](https://mongoosejs.com/docs/typescript.html)
+
+Create:
+
+make interface -> sechema --> model
