@@ -1,5 +1,9 @@
 UM-3 Project Setup
 
+**switch branch**
+
+`git checkout UM-3
+`
 **Step:1**
 
  `  yarn add typescript --dev`
