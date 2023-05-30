@@ -26,5 +26,5 @@ const userSchema = new Schema<IUser>(
   }
 )
 
-// 3. Create a Model.
+// 3. Create a Model.  here the database query happens
 export const User = model<IUser, UserModel>('User', userSchema)

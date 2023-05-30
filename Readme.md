@@ -2,6 +2,7 @@ UM-3 👍Project Setup
 UM-4 👍Setup express,mongoose,cors,parser
 UM-5 👍Setup Eslint,Prettier,Husky,Lint stage
 UM-6 👍Create User Interface and Models
+UM-7 👍Create user service
 **switch branch**
 
 `git checkout UM-3
@@ -74,4 +75,8 @@ npm install --save-dev eslint-config-prettier
 
 Create:
 
-make interface -> sechema --> model
+make interface -> sechema --> model-->service
+
+  users.interface.ts
+  users.model.ts
+  user.service.ts
