@@ -5,8 +5,25 @@ UM-6 👍Create User Interface and Models
 UM-7 👍Create user service
 **switch branch**
 
-`git checkout UM-3
-`
+`git checkout UM-3`
+
+### UM-6 👍Create User Interface and Modules
+
+[visit this doc](https://mongoosejs.com/docs/typescript.html)
+
+**Create:**
+
+make `interface` -> `sechema` --> `model`-->`service`-->`controller`-->`route`
+
+  users.interface.ts
+  users.model.ts
+  user.service.ts
+  user.utils.ts
+  user.controller.ts
+
+
+
+
 **Step:1**
 
  `  yarn add typescript --dev`
@@ -75,7 +92,7 @@ npm install --save-dev eslint-config-prettier
 
 Create:
 
-make interface -> sechema --> model-->service
+make `interface` -> `sechema` --> `model`-->`service`-->`controller`-->`route`
 
   users.interface.ts
   users.model.ts
