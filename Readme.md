@@ -1,6 +1,6 @@
 UM-3 👍Project Setup
 UM-4 👍Setup express,mongoose,cors,parser
-
+UM-5 👍Setup Eslint,Prettier,Husky,Lint stage
 **switch branch**
 
 `git checkout UM-3
@@ -42,4 +42,14 @@ Then add this to the package.json script file
 run 👍
 
     yarn start
+    
+---
+[Read this blog step by step](https://blog.logrocket.com/linting-typescript-eslint-prettier/)
 
+**Install ESLint:**
+`npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev`
+`yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev`
+
+
+**Install Prettier**
+yarn add -D prettier
