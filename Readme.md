@@ -63,3 +63,5 @@ npm install --save-dev eslint-config-prettier
 `yarn husky install`
 
 `yarn husky add .husky/pre-commit "npm test"`
+
+`yarn add -D lint-staged`
