@@ -1,4 +1,5 @@
-UM-3 Project Setup
+UM-3 👍Project Setup
+UM-4 👍Setup express,mongoose,cors,parser
 
 **switch branch**
 
@@ -17,3 +18,28 @@ UM-3 Project Setup
 in the tsconfig.json file enalble the ./src and ./dist in source and ouotdir.
 
 `yarn add dotenv`
+
+---
+
+`yarn add -D @types/express`
+
+To run the file go to `ts-node-dev` documentation
+
+`yarn add ts-node-dev --dev`
+`yarn add cors`
+
+Then add this to the package.json script file
+
+    ts-node-dev --respawn --transpile-only server.ts
+
+```js
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+```
+
+run 👍
+
+    yarn start
+
