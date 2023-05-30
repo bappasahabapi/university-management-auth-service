@@ -53,3 +53,13 @@ run 👍
 
 **Install Prettier**
 yarn add -D prettier
+
+npm install --save-dev eslint-config-prettier
+
+**Install Husky**
+
+`yarn add husky --dev`
+
+`yarn husky install`
+
+`yarn husky add .husky/pre-commit "npm test"`
