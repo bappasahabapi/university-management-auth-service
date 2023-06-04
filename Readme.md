@@ -9,11 +9,11 @@
 -    UM-8 🦜 eslint customized
 
 ---
-UM-3 👍Project Setup
-UM-4 👍Setup express,mongoose,cors,parser
-UM-5 👍Setup Eslint,Prettier,Husky,Lint stage
-UM-6 👍Create User Interface and Models
-UM-7 👍Create user service
+- UM-3 👍Project Setup
+- UM-4 👍Setup express,mongoose,cors,parser
+- UM-5 👍Setup Eslint,Prettier,Husky,Lint stage
+- UM-6 👍Create User Interface and Models
+- UM-7 👍Create user service
 
 
 
