@@ -1,5 +1,19 @@
-UM-3 👍Project Setup
-UM-4 👍Setup express,mongoose,cors,parser
+
+-    UM-11 🔏 Error handling basic
+---
+-    UM-10 🔏 manage log using library
+-    UM-9.2 🔏 customized logs | custom log format
+-    UM-9.1 🔏 seperate success logs and error logs
+-    UM-9 🔏 set up basic logger
+---
+-    UM-8 🦜 eslint customized
+
+---
+- UM-3 👍Project Setup
+- UM-4 👍Setup express,mongoose,cors,parser
+- UM-5 👍Setup Eslint,Prettier,Husky,Lint stage
+- UM-6 👍Create User Interface and Models
+- UM-7 👍Create user service
 
 **switch branch**
 
