@@ -1,0 +1,28 @@
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅😉',
+  timestamp: '2023-06-04T17:48:09.926Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅😉',
+  timestamp: '2023-06-04T17:48:09.931Z'
+}
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅😉',
+  timestamp: '2023-06-04T17:49:03.035Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅😉',
+  timestamp: '2023-06-04T17:49:03.045Z'
+}
