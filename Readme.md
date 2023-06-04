@@ -1,5 +1,5 @@
 
--    UM-8 🦜 Create user service
+-    UM-8 🦜 eslint customized
 
 ---
 UM-3 👍Project Setup
