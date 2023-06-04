@@ -1,5 +1,5 @@
 
--    UM-9 🔏 set up logger
+-    UM-9 🔏 set up basic logger
 -    UM-8 🦜 eslint customized
 
 ---
