@@ -1,5 +1,7 @@
 ##    Branches
 
+-    UM-11.2 🔏 Optimize error handling
+-    UM-11.1 🔏 error handle 
 -    UM-11 🔏 Error handling basic
 ---
 -    UM-10 🔏 manage log using library
