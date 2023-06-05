@@ -19,6 +19,16 @@
             "date": 1685981237969,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-05-06-22-success.log",
             "hash": "866ac773423dfe252d5dcee982dbc91cd14f8e063d4e363d3dd9e5586c3154e9"
+        },
+        {
+            "date": 1685987185761,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-05-06-23-success.log",
+            "hash": "770bb02dd4c554ed7f10e379860495207595f81e75776e0e57ddbe5e6800cac9"
+        },
+        {
+            "date": 1685988130528,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-06-06-00-success.log",
+            "hash": "df983598f3a63bf24fa12afabe5640f890b48d7dd93ea4036a794d5f285e3879"
         }
     ],
     "hashType": "sha256"

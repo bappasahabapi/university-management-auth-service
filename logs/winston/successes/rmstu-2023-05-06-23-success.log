@@ -1,0 +1,140 @@
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:46:30.142Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:46:30.151Z'
+}
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:50:22.698Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:50:22.708Z'
+}
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:50:38.080Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:50:38.089Z'
+}
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:50:43.686Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:50:43.698Z'
+}
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:51:07.950Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:51:07.958Z'
+}
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:51:14.915Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:51:14.927Z'
+}
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:57:01.976Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:57:01.986Z'
+}
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:57:12.592Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:57:12.603Z'
+}
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:57:35.300Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:57:35.304Z'
+}
+{
+  message: '🔋 Database is connected',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:57:48.767Z'
+}
+{
+  message: 'Application is listening on port 4000',
+  level: 'info',
+  service: 'user-service',
+  label: '✅rmstu😉',
+  timestamp: '2023-06-05T17:57:48.779Z'
+}
