@@ -39,6 +39,11 @@
             "date": 1686064613459,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-06-06-21-error.log",
             "hash": "2b8cd09c6026315d2104489e83425857d5bd3138bb44561b04ab97a5c8c7c7a3"
+        },
+        {
+            "date": 1686067203153,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-06-06-22-error.log",
+            "hash": "cf7470ec28b6a7bdebd003e82d28baedc3a89a472deacb395457fd263b7fa4aa"
         }
     ],
     "hashType": "sha256"

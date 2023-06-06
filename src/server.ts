@@ -9,7 +9,7 @@ async function bootstrap() {
    logger.info('🔋 Database is connected')
 
     app.listen(config.port, () => {
-      logger.info(`Application is listening on port ${config.port}`)
+      logger.info(`🚀 Application is listening on port ${config.port}`)
     })
   } catch (error) {
     errorlogger.error('Failed to connet to database', error)
