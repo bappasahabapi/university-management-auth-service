@@ -1,12 +1,23 @@
-import { ErrorRequestHandler} from "express";
+
 import config from "../../../../config";
 import { IGenericErrorMessage } from "../../../../interfaces/error";
 import handleValidationError from "../../../../errors/handleValidationError";
 import ApiError from "../../../../errors/ApiError";
+import { ErrorRequestHandler, NextFunction, Request, Response } from 'express';
+import { errorlogger } from "../../../../shared/logger";
 
-const globalErrorHandler:ErrorRequestHandler = (error, req, res, next) => {
+const globalErrorHandler: ErrorRequestHandler = (error,
+    req: Request,
+    res: Response,
+    next: NextFunction) => {
 
-    let statusCode = 5000;
+    // eslint-disable-next-line no-unused-expressions
+    config.env === 'development'
+        ? console.log(`🐱‍🏍 globalErrorHandler ~~`, error)
+        : errorlogger.error(`🐱‍🏍 globalErrorHandler ~~`, error);
+
+
+        let statusCode = 5000;
     let message = 'Something went wrong';
     let errorMessages: IGenericErrorMessage[] = []
 
@@ -16,7 +27,7 @@ const globalErrorHandler:ErrorRequestHandler = (error, req, res, next) => {
         message = simplifiedError.message;
         errorMessages = simplifiedError.errorMessages;
     }
-    else if (error instanceof Error){
+    else if (error instanceof Error) {
         message = error?.message;
         errorMessages = error?.message ?
             [
@@ -39,12 +50,12 @@ const globalErrorHandler:ErrorRequestHandler = (error, req, res, next) => {
             : [];
     }
     res.status(statusCode).json({
-            success: false,
-            message,
-            errorMessages,
-            stack: config.env !== 'production' ? error.stack : undefined
+        success: false,
+        message,
+        errorMessages,
+        stack: config.env !== 'production' ? error.stack : undefined
     })
-    
+
 
 
 

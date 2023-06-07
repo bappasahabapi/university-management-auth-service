@@ -1,0 +1,6 @@
+{
+  level: 'error',
+  service: 'user-service',
+  label: '❗ error',
+  timestamp: '2023-06-07T15:06:33.659Z'
+}
