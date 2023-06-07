@@ -6,44 +6,9 @@
     "auditLog": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/.912f802b77f40c1c98510c24a30280d9efb715c3-audit.json",
     "files": [
         {
-            "date": 1685900959029,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-04-06-23-success.log",
-            "hash": "9eca92d07ad62dc9bcb5412074e4bb6a13724e954dfed42fdd7c6853ac863699"
-        },
-        {
-            "date": 1685980259223,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-05-06-21-success.log",
-            "hash": "a42682845cdc39fe61d950d45c51eb312784c18712ec8fcafa1d692c69970769"
-        },
-        {
-            "date": 1685981237969,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-05-06-22-success.log",
-            "hash": "866ac773423dfe252d5dcee982dbc91cd14f8e063d4e363d3dd9e5586c3154e9"
-        },
-        {
-            "date": 1685987185761,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-05-06-23-success.log",
-            "hash": "770bb02dd4c554ed7f10e379860495207595f81e75776e0e57ddbe5e6800cac9"
-        },
-        {
-            "date": 1685988130528,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-06-06-00-success.log",
-            "hash": "df983598f3a63bf24fa12afabe5640f890b48d7dd93ea4036a794d5f285e3879"
-        },
-        {
-            "date": 1686060835021,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-06-06-20-success.log",
-            "hash": "29f6388011cdcee4c0bb2f33732d3c778abaefe0ee5f59a15a1326e9970ecb8f"
-        },
-        {
-            "date": 1686064613456,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-06-06-21-success.log",
-            "hash": "c15bc74c748be82fbaef05d2232f6eda89bba7c9270f0d4ead8662040c0c542a"
-        },
-        {
-            "date": 1686067203151,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-06-06-22-success.log",
-            "hash": "9e0c9f637303ea60801f1e64fa4c2e35cd2f6897baccac3bb135102dc6be85b7"
+            "date": 1686148419047,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/rmstu-2023-07-06-20-success.log",
+            "hash": "6d7d615bdc5ade750b167916c1c5d8d5a1bbb47df719094ab8c0258586f87627"
         }
     ],
     "hashType": "sha256"

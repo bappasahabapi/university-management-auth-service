@@ -6,44 +6,9 @@
     "auditLog": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/.54b4fd4f5084fa10c581cccc2d9401dcb72fd9a2-audit.json",
     "files": [
         {
-            "date": 1685900940267,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-04-06-23-error.log",
-            "hash": "5d84d3deff6b09249947ead0364ada3537a25ad5acb17f80a0b77bad7b949e89"
-        },
-        {
-            "date": 1685980259224,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-05-06-21-error.log",
-            "hash": "f0c1cfcb91acc69b11352dc48109830f6ab073ef91be9a8d6a545aacc7719156"
-        },
-        {
-            "date": 1685981237970,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-05-06-22-error.log",
-            "hash": "f34041a2790a5ecdcd8f51ff5dba58899277dcdcb5719bf367cb1f2c20414e38"
-        },
-        {
-            "date": 1685987185763,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-05-06-23-error.log",
-            "hash": "9fa69f29664f882ffa4d7bd9e7c0f3f47bceb4fc89107c232f834f00a6b618fa"
-        },
-        {
-            "date": 1685988130530,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-06-06-00-error.log",
-            "hash": "dcd3e4883ed632cf1af9a7ba5e50eacb5493208f92c5ee2853ade27326f71bf5"
-        },
-        {
-            "date": 1686060835022,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-06-06-20-error.log",
-            "hash": "24f269680df6fe34debe7aaaeb614e69e690926204aeb4222ed1f3ac33e4dc65"
-        },
-        {
-            "date": 1686064613459,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-06-06-21-error.log",
-            "hash": "2b8cd09c6026315d2104489e83425857d5bd3138bb44561b04ab97a5c8c7c7a3"
-        },
-        {
-            "date": 1686067203153,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-06-06-22-error.log",
-            "hash": "cf7470ec28b6a7bdebd003e82d28baedc3a89a472deacb395457fd263b7fa4aa"
+            "date": 1686148419049,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-07-06-20-error.log",
+            "hash": "83f249cf2f91faf629b86144a409861262aab08aada236f7e7afe7b79d9e28aa"
         }
     ],
     "hashType": "sha256"

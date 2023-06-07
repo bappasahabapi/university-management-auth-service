@@ -20,11 +20,11 @@ app.use('/api/v1/users/', UserRoutes)
 
 
 
-// // Testing
-// app.get('/', async (req: Request, res: Response, next:NextFunction) => {
-//   res.send('Working Successfully')
-//   throw new ApiError(400,'This is api error --bappa')
-// //   next('bappaErrorDile')
+// // // Testing
+// app.get('/', (req: Request, res: Response, next:NextFunction) => {
+//   // res.send('Working Successfully')
+//   throw new ApiError(400,' ✅  This is api error --bappa')
+//   // next('bappaErrorDile')
 // }) 
 
 
