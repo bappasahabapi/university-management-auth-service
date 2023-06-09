@@ -17,7 +17,7 @@ const globalErrorHandler: ErrorRequestHandler = (error,
         : errorlogger.error(`🐱‍🏍 globalErrorHandler ~~`, error);
 
 
-        let statusCode = 5000;
+        let statusCode = 500;
     let message = 'Something went wrong';
     let errorMessages: IGenericErrorMessage[] = []
 

@@ -22,11 +22,11 @@ app.use('/api/v1/users/', UserRoutes)
 
 
 //  Testing
-app.get('/', async(req: Request, res: Response, next:NextFunction) => {
-  // Promise.reject((new Error('Unhandled promise Rejection')))
-  // console.log(x)
- throw new Error ('testing error loger')
-}) 
+// app.get('/', async(req: Request, res: Response, next:NextFunction) => {
+//   // Promise.reject((new Error('Unhandled promise Rejection')))
+//   // console.log(x)
+//  throw new Error ('testing error loger')
+// }) 
 
 
 
