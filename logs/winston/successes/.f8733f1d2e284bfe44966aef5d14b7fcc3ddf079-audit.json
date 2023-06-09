@@ -9,6 +9,16 @@
             "date": 1686296596607,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/phu-2023-09-06-13-success.log",
             "hash": "0f7dd96ce88c10c8a14aa6ef84bbcf06a0cb5b86cbee3d619075f342b1fbb852"
+        },
+        {
+            "date": 1686306866153,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/phu-2023-09-06-16-success.log",
+            "hash": "fc4a7de989485ee01160a02641149459089d400286eec1fde055c2b0b29ad6a8"
+        },
+        {
+            "date": 1686308505941,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/phu-2023-09-06-17-success.log",
+            "hash": "a9ccf16469c3063cfe6744cc3f231f0687361d3d2e9dea5a6f31401118e5f7ab"
         }
     ],
     "hashType": "sha256"

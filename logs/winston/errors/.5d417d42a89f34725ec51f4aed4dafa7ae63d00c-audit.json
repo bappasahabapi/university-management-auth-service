@@ -9,6 +9,16 @@
             "date": 1686296596608,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/phu-2023-09-06-13-error.log",
             "hash": "520a3830b767698c1d100444abbe3b697b9f69aed753fb536a11018beb1b7778"
+        },
+        {
+            "date": 1686306866155,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/phu-2023-09-06-16-error.log",
+            "hash": "7064eee4df221c1d6c8977257f6e27b2d8ee25d9dbeca209104ad1ed7ea4c197"
+        },
+        {
+            "date": 1686308517076,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/phu-2023-09-06-17-error.log",
+            "hash": "973110880fc132669d37c78d9acc841a0f01a18a08ec292ae1241af18f7a538e"
         }
     ],
     "hashType": "sha256"
