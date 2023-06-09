@@ -1,5 +1,37 @@
+##    pagination
+
+
+-    **api:** `/api/v1/something?page=0&limit=10`
+
+**page:** Number(req.query.page)
+
+**limit:** Number(req.query.limit)
+
+**example:**
+-    1-10 of 80 documents => query{page: '`1`', : limit: '`10`'} skip =0 || for page 0
+-    11-20 of 80 documents => query{page: '`2`', : limit: '`10`'} skip =1-10 || for page 1
+-    1-10 of 80 documents => query{page: '`3`', : limit: '`10`'} skip =1-30 || for page 2
+
+**So the formula:** `skip=(page-1)*limit`
+
+`/api/v1/something?page=1&limit=01&sortBy=year&sortOrder=desc`
+```javascript
+const paginationOption={
+    page:Number(req.query.page),
+    limit:Number(req.query.limit),
+    sortBy:req.query.sortBy,
+    sortOrder:req.query.sortOrder
+}
+```
+
+
 ##    Branches
 
+-    UM-12.1 📆 pagination
+-    UM-12 🔏 not found route handle
+- 
+
+---
 -    UM-11.6 🔏 zod error handling
 -    UM-11.5 🔏 error handle final
 -    UM-11.4 🔏 handleValidation ErrorHandler

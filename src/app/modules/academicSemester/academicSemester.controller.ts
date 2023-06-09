@@ -22,6 +22,8 @@ const createSemester = catchAsync(
   }
 );
 
+
+
 export const AcademicSemesterController = {
   createSemester,
 };
