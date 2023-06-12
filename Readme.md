@@ -1,4 +1,81 @@
+Create:
+
+make `interface` -> `sechema` --> `model`-->`service`-->`controller`-->`route`
+
+
+**interface**
+
+```powershell
+import { Model } from "mongoose";
+
+export type IAcademicSemester ={
+    title:string;
+    year:number;
+    code:number;
+    startMonth:string;
+    endMonth:string;
+}
+
+export type AcademicSemesterModel =Model<IAcademicSemester>
+
+```
+
+**model**
+
+```powershell
+import { Schema, model } from 'mongoose';
+import { IUser, UserModel } from './user.interface';
+
+const userSchema = new Schema<IUser>(
+  {
+    id: {
+      type: String,
+      required: true,
+      unique: true,
+    },
+    role: {
+      type: String,
+      required: true,
+    },
+    password: {
+      type: String,
+      required: true,
+    },
+  },
+  {
+    timestamps: true,
+  }
+);
+export const User = model<IUser, UserModel>('User', userSchema);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##    Branches
+
+-    `UM-12.1 🔏 create interface and model`
 
 -    UM-11.6 🔏 zod error handling
 -    UM-11.5 🔏 error handle final
@@ -21,6 +98,8 @@
 - UM-5 👍Setup Eslint,Prettier,Husky,Lint stage
 - UM-6 👍Create User Interface and Models
 - UM-7 👍Create user service
+
+
 
 
 
@@ -111,9 +190,7 @@ npm install --save-dev eslint-config-prettier
 
 [visit this doc](https://mongoosejs.com/docs/typescript.html)
 
-Create:
 
-make `interface` -> `sechema` --> `model`-->`service`-->`controller`-->`route`
 
   users.interface.ts
   users.model.ts
