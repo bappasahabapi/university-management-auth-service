@@ -1,8 +1,8 @@
-import { Schema, model } from 'mongoose';
-import { AcademicSemesterModel, IAcademicSemester } from './academicSemester.interface';
-import { academicSemesterCodes, academicSemesterMonths, academicSemesterTitles } from './academicSemester.constant';
-import ApiError from '../../../errors/ApiError';
 import status from 'http-status';
+import { Schema, model } from 'mongoose';
+import ApiError from '../../../errors/ApiError';
+import { academicSemesterCodes, academicSemesterMonths, academicSemesterTitles } from './academicSemester.constant';
+import { AcademicSemesterModel, IAcademicSemester } from './academicSemester.interface';
 
 const academicSemesterSchema = new Schema<IAcademicSemester>(
     {
@@ -36,7 +36,6 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
     }
 );
 
-export const AcademicSemister = model<IAcademicSemester, AcademicSemesterModel>('AcademicSemister', academicSemesterSchema);
 
 //todo: Handling same year same semester issue(using pre hook )
 // Data-> check? same year && same semister 
@@ -49,3 +48,5 @@ academicSemesterSchema.pre("save",async function(next){
     //mongoose hook er next()
     next();
 });
+
+export const AcademicSemister = model<IAcademicSemester, AcademicSemesterModel>('AcademicSemister', academicSemesterSchema);
