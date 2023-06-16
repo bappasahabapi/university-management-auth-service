@@ -6,24 +6,9 @@
     "auditLog": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/.5d417d42a89f34725ec51f4aed4dafa7ae63d00c-audit.json",
     "files": [
         {
-            "date": 1686296596608,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/phu-2023-09-06-13-error.log",
-            "hash": "520a3830b767698c1d100444abbe3b697b9f69aed753fb536a11018beb1b7778"
-        },
-        {
-            "date": 1686320947830,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/phu-2023-09-06-20-error.log",
-            "hash": "4d1e9d2cf2a87e90a78dbd8585d0e9b6e6416137b309f11842ca42d176a2711d"
-        },
-        {
-            "date": 1686589822460,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/phu-2023-12-06-23-error.log",
-            "hash": "fc3f95166bb9c84fd6bbed207976a5f10e8d7150e0c81b9205381ce28032b8fe"
-        },
-        {
-            "date": 1686593351968,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/phu-2023-13-06-00-error.log",
-            "hash": "bfe84b46a34082c59004bd92bed0d24c91ff45f4a4a5eed487b814a6223b3b79"
+            "date": 1686900295442,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/phu-2023-16-06-13-error.log",
+            "hash": "f31c740e86c2fadab4bdee46917ed9a38a5b9d89d733c26def68ef27d376e5e0"
         }
     ],
     "hashType": "sha256"
