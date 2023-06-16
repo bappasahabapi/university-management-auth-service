@@ -17,7 +17,10 @@ export const academicSemesterMonths:IAcademicSemesterMonths[] =[
     'November',
     'December',
 ];
-
-
-
+// uisng mapper
+export const academicSememterTitleCodeMaper:{[key:string]:string}={
+    Autumn:'01',
+    Summer:'02',
+    Fall:'03'
+}
  

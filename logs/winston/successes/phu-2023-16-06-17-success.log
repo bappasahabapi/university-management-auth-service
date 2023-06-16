@@ -1,3 +1,5 @@
 Fri Jun 16 2023 17:3:11 } [bapi] info: SIGTERM is received
 Fri Jun 16 2023 17:3:58 } [bapi] info: 🛢   Database is connected successfully
 Fri Jun 16 2023 17:3:58 } [bapi] info: Application  listening on port 5000
+Fri Jun 16 2023 17:27:23 } [bapi] info: 🛢   Database is connected successfully
+Fri Jun 16 2023 17:27:23 } [bapi] info: Application  listening on port 5000
