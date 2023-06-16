@@ -24,6 +24,11 @@
             "date": 1686320918346,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/phu-2023-09-06-20-success.log",
             "hash": "b83ae1a6e0486ef17d715bebb33edda9112f82c25ddfcc8789474c0fd842f81d"
+        },
+        {
+            "date": 1686919661909,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/phu-2023-16-06-18-success.log",
+            "hash": "976c78d0b6203fe2f82648b7bb379bc75df14c60b9b7531a86f4a232cda94973"
         }
     ],
     "hashType": "sha256"
