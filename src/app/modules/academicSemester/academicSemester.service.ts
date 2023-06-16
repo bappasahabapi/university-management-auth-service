@@ -4,6 +4,7 @@ import { IPaginationOptions } from '../../../interfaces/pagination';
 import { academicSemesterTitleCodeMapper } from './academicSemester.constant';
 import { IAcademicSemester } from './academicSemester.interface';
 import { AcademicSemester } from './academicSemester.model';
+import { IGenericResponse } from '../../../interfaces/common';
 
 const createSemester = async (
   payload: IAcademicSemester
@@ -18,10 +19,32 @@ const createSemester = async (
 };
 
 
+// type IGenericResponse<T> = {
+//   meta: {
+//     page?: number;
+//     limit?: number;
+//     total: number
+//   };
+//   data: T;
+// }
 
+const gellAllSemesters = async (paginationOptions: IPaginationOptions): Promise<IGenericResponse<IAcademicSemester[]>> => {
 
-const gellAllSemesters=(paginationOptions:IPaginationOptions)=>{
-  console.log('first')
+  const { page = 1, limit = 10 } = paginationOptions;
+  const skip = (page - 1) * limit;
+
+  //ekane query ta chalabo model er uperey
+  const result = await AcademicSemester.find().sort().skip(skip).limit(limit);
+  const total = await AcademicSemester.countDocuments();
+
+  return {
+    meta: {
+      page,
+      limit,
+      total,
+    },
+    data: result
+  }
 }
 
 
