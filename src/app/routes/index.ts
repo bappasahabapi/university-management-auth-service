@@ -4,10 +4,6 @@ import { AcademicSemesterRoutes } from '../modules/academicSememter/academicSeme
 import { UserRoutes } from '../modules/user/user.route';
 
 const router = express.Router();
-
-// router.use('/users/',UserRoutes);
-// router.use('/academic-semesters',AcademicSemesterRoutes)
-
 const moduleRoutes = [
   {
     path: '/users',

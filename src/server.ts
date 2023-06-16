@@ -14,7 +14,7 @@ let server: Server;
 async function bootstrap() {
   try {
     await mongoose.connect(config.database_url as string);
-    logger.info(`🛢   Database is connected successfully`);
+    logger.info(` 🔋🛢   Database is connected successfully`);
 
     server = app.listen(config.port, () => {
       logger.info(`Application  listening on port ${config.port}`);
@@ -37,9 +37,9 @@ async function bootstrap() {
 
 bootstrap();
 
-process.on('SIGTERM', () => {
-  logger.info('SIGTERM is received');
-  if (server) {
-    server.close();
-  }
-});
+// process.on('SIGTERM', () => {
+//   logger.info('SIGTERM is received');
+//   if (server) {
+//     server.close();
+//   }
+// });

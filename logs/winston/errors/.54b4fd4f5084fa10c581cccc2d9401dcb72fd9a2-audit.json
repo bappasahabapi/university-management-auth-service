@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/.54b4fd4f5084fa10c581cccc2d9401dcb72fd9a2-audit.json",
+    "files": [
+        {
+            "date": 1686917409063,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/rmstu-2023-16-06-18-error.log",
+            "hash": "6ae4c6650e875c423d7bebbf17ee750e64b0a7d0c93d4de107dd90b74f0c76ba"
+        }
+    ],
+    "hashType": "sha256"
+}
