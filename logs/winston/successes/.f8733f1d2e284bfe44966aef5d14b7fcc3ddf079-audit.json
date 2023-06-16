@@ -26,9 +26,14 @@
             "hash": "b83ae1a6e0486ef17d715bebb33edda9112f82c25ddfcc8789474c0fd842f81d"
         },
         {
-            "date": 1686919661909,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/phu-2023-16-06-18-success.log",
-            "hash": "976c78d0b6203fe2f82648b7bb379bc75df14c60b9b7531a86f4a232cda94973"
+            "date": 1686934761504,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/phu-2023-16-06-22-success.log",
+            "hash": "b9f6030034119f4c0535e867caaab1c3fb9a0ea6213d5c4e21726b5f0c4b07d5"
+        },
+        {
+            "date": 1686934821286,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/phu-2023-16-06-23-success.log",
+            "hash": "0a1922c4653565cf8243ebd16fbce9e9aaaca4cd5f684eddfd3586a752e3ae75"
         }
     ],
     "hashType": "sha256"
