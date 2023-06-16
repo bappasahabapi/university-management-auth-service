@@ -27,12 +27,26 @@ const paginationOption={
 
 ##    Branches
 
--    UM-12.1 📆 pagination
--    UM-12 🔏 not found route handle
-- 
+-    UM-14.2 📆 pagination
+-    UM-14.1 🔏 not found route handle
 
 ---
--    UM-11.6 🔏 zod error handling
+-    UM-13 🔏  `Academic Semester done`
+---
+-    UM-12 🔏 `Academic Semester done [full]`
+-    UM-12.1 🔏  Interface Model
+-    UM-12.2 🔏  Validation Imporved Interface-Schema
+-    UM-12.3 🔏  Constant file
+-    UM-12.4 🔏  Service - controller - route
+-    UM-12.5 🔏  Post semester working
+-    UM-12.5 🔏  handle same year same semester error
+-    UM-12.6 🔏  Semister code validation
+-    UM-12.7 🔏  Optimize route and controller
+-    UM-12.8 🔏  Catch async [common try catch error handler]
+-    UM-12.9 🔏  Academic Semester Final
+
+---
+-    `UM-11.6 🔏 zod error handling`
 -    UM-11.5 🔏 error handle final
 -    UM-11.4 🔏 handleValidation ErrorHandler
 -    UM-11.3 🔏 Common Error Pattern for frontend
@@ -40,7 +54,7 @@ const paginationOption={
 -    UM-11.1 🔏 error handle 
 -    UM-11 🔏 Error handling basic
 ---
--    UM-10 🔏 manage log using library
+-    `UM-10 🔏 manage log using library`
 -    UM-9.2 🔏 customized logs | custom log format
 -    UM-9.1 🔏 seperate success logs and error logs
 -    UM-9 🔏 set up basic logger

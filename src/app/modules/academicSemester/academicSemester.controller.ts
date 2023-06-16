@@ -22,8 +22,32 @@ const createSemester = catchAsync(
   }
 );
 
+const gellAllSemesters = catchAsync(
+  async (req: Request, res: Response, next: NextFunction) => {
+
+    const paginationOptions = {
+      page: Number(req.query.page),
+      limit: Number(req.query.limit),
+      sortBy: req.query.sortBy,
+      sortOrder: req.query.sortOrder
+    };
+    //call the service
+    const result = await AcademicSemesterService.gellAllSemesters(paginationOptions);
+
+
+    sendResponse<IAcademicSemester>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Semester retrived successfully',
+      data: result,
+    });
+    next();
+  }
+
+)
 
 
 export const AcademicSemesterController = {
   createSemester,
+  gellAllSemesters
 };
