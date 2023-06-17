@@ -19,6 +19,16 @@
             "date": 1686942011403,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-17-06-01-success.log",
             "hash": "f6efdf65766befa10ccf1348af2c00c8c9a1c276d14c8f44e112ecbcc4371c35"
+        },
+        {
+            "date": 1686979224317,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-17-06-11-success.log",
+            "hash": "1a7a287e21c27493ffd03c3d894641c58f72768e87eef7dd4db92a8f9796431a"
+        },
+        {
+            "date": 1686981619295,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-17-06-12-success.log",
+            "hash": "9785460154214c3f948bfb98cffa56bfecd83409f2f4efb5f540b0d653bc1a00"
         }
     ],
     "hashType": "sha256"

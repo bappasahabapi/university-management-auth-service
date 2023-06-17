@@ -1,10 +1,12 @@
 import httpStatus from 'http-status';
 import ApiError from '../../../errors/ApiError';
+import { paginationHelpers } from '../../../helpers/paginationHelper';
+import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { academicSemesterTitleCodeMapper } from './academicSemester.constant';
 import { IAcademicSemester } from './academicSemester.interface';
 import { AcademicSemester } from './academicSemester.model';
-import { IGenericResponse } from '../../../interfaces/common';
+import { SortOrder } from 'mongoose';
 
 const createSemester = async (
   payload: IAcademicSemester
@@ -18,23 +20,24 @@ const createSemester = async (
   return result;
 };
 
+const gellAllSemesters = async (
+  paginationOptions: IPaginationOptions): Promise<IGenericResponse<IAcademicSemester[]>> => {
 
-// type IGenericResponse<T> = {
-//   meta: {
-//     page?: number;
-//     limit?: number;
-//     total: number
-//   };
-//   data: T;
-// }
+  // const { page = 1, limit = 10 } = paginationOptions;
+  // const skip = (page - 1) * limit;
+  const { page, limit, skip, sortBy, sortOrder } = paginationHelpers.calculatePagination(paginationOptions)
 
-const gellAllSemesters = async (paginationOptions: IPaginationOptions): Promise<IGenericResponse<IAcademicSemester[]>> => {
+  const sortConditions:{[key:string]:SortOrder} = {};
 
-  const { page = 1, limit = 10 } = paginationOptions;
-  const skip = (page - 1) * limit;
+  if(sortBy &&sortOrder){
+    sortConditions[sortBy]=sortOrder;
+  }
 
   //ekane query ta chalabo model er uperey
-  const result = await AcademicSemester.find().sort().skip(skip).limit(limit);
+  const result = await AcademicSemester.find()
+    .sort(sortConditions)
+    .skip(skip)
+    .limit(limit);
   const total = await AcademicSemester.countDocuments();
 
   return {
