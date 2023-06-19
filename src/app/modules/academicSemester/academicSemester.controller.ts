@@ -27,10 +27,11 @@ const createSemester = catchAsync(
 const gellAllSemesters = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
 
-    const paginationOptions =pick(req.query, paginationFields)
- 
-    const result = await AcademicSemesterService.gellAllSemesters(paginationOptions);
 
+    const filters =pick(req.query,['searchTerm'])
+    const paginationOptions =pick(req.query, paginationFields);
+ 
+    const result = await AcademicSemesterService.gellAllSemesters(filters,paginationOptions);
 
     sendResponse<IAcademicSemester[]>(res, {
       statusCode: httpStatus.OK,

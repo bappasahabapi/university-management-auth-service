@@ -4,7 +4,7 @@ import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { academicSemesterTitleCodeMapper } from './academicSemester.constant';
-import { IAcademicSemester } from './academicSemester.interface';
+import { IAcademicSemester, IAcademicSemesterFilters } from './academicSemester.interface';
 import { AcademicSemester } from './academicSemester.model';
 import { SortOrder } from 'mongoose';
 
@@ -20,8 +20,15 @@ const createSemester = async (
   return result;
 };
 
+// type IAcademicSemesterFilters={
+//   searchTerm:string
+// }
+
 const gellAllSemesters = async (
-  paginationOptions: IPaginationOptions): Promise<IGenericResponse<IAcademicSemester[]>> => {
+
+  filters:IAcademicSemesterFilters,
+  paginationOptions: IPaginationOptions
+  ): Promise<IGenericResponse<IAcademicSemester[]>> => {
 
   // const { page = 1, limit = 10 } = paginationOptions;
   // const skip = (page - 1) * limit;
