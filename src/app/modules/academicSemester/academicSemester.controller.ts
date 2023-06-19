@@ -25,9 +25,8 @@ const createSemester = catchAsync(
   }
 );
 
-const gellAllSemesters = catchAsync(
+const gellAllSemesters = catchAsync( 
   async (req: Request, res: Response, next: NextFunction) => {
-
 
     // const filters =pick(req.query,['searchTerm','title','code','year'])
     const filters =pick(req.query,academicSemesterFilterableFields)
@@ -47,10 +46,29 @@ const gellAllSemesters = catchAsync(
     next();
   }
 
+);
+
+const getSingleSemester =catchAsync(
+  async(req:Request,res:Response,next:NextFunction)=>{
+    const id =req.params.id;
+
+    const result =await AcademicSemesterService.getSingleSemester(id);
+
+
+    sendResponse<IAcademicSemester>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Semester retrieved successfully !',
+      data:result
+
+    });
+    next(); 
+  }
 )
 
 
 export const AcademicSemesterController = {
   createSemester,
-  gellAllSemesters
+  gellAllSemesters,
+  getSingleSemester
 };

@@ -26,57 +26,33 @@ const gellAllSemesters = async (
   paginationOptions: IPaginationOptions
 ): Promise<IGenericResponse<IAcademicSemester[]>> => {
 
-
-  const { searchTerm , ...filtersData} = filters;
+  const { searchTerm, ...filtersData } = filters;
 
   // const academicSemesterSearchableFields =['title','code','year']
-  const andConditions=[];
+  const andConditions = [];
 
   // hadle the serchTerm part
-  if(searchTerm){
+  if (searchTerm) {
     andConditions.push({
-      $or: academicSemesterSearchableFields.map((field)=>({
-          [field]:{
-            $regex:searchTerm,
-            $options:'i'
-          }
+      $or: academicSemesterSearchableFields.map((field) => ({
+        [field]: {
+          $regex: searchTerm,
+          $options: 'i'
+        }
       }))
     })
   }
 
   // handle filters data part
-  if(Object.keys(filtersData).length){
+  if (Object.keys(filtersData).length) {
     andConditions.push({
-      $and:Object.entries(filtersData).map(([field,value])=>({
-        [field]:value
+      $and: Object.entries(filtersData).map(([field, value]) => ({
+        [field]: value
       }))
     })
   }
 
-  // const andConditions = [
-  //   {
-  //     $or: [
-  //       {
-  //         title: {
-  //           $regex: searchTerm,
-  //           $options: 'i'
-  //         }
-  //       },
-  //       {
-  //         code: {
-  //           $regex: searchTerm,
-  //           $options: 'i'
-  //         }
-  //       },
-  //       {
-  //         year: {
-  //           $regex: searchTerm,
-  //           $options: 'i'
-  //         }
-  //       },
-  //     ]
-  //   }
-  // ];
+
 
   const { page, limit, skip, sortBy, sortOrder } = paginationHelpers.calculatePagination(paginationOptions)
 
@@ -85,16 +61,13 @@ const gellAllSemesters = async (
   if (sortBy && sortOrder) {
     sortConditions[sortBy] = sortOrder;
   }
+  const whereConditions = andConditions.length > 0 ? { $and: andConditions } : {}
 
-
-  const whereConditions =andConditions.length >0 ? {$and:andConditions} : {}
-
-  //ekane query ta chalabo model er uperey
-  // const result = await AcademicSemester.find({$and:andConditions})
   const result = await AcademicSemester.find(whereConditions)
     .sort(sortConditions)
     .skip(skip)
     .limit(limit);
+
   const total = await AcademicSemester.countDocuments();
 
   return {
@@ -105,10 +78,18 @@ const gellAllSemesters = async (
     },
     data: result
   }
+};
+
+const getSingleSemester = async (id: string): Promise<IAcademicSemester | null> => {
+
+  const result = await AcademicSemester.findById(id);
+  return result;
+
 }
 
 
 export const AcademicSemesterService = {
   createSemester,
-  gellAllSemesters
+  gellAllSemesters,
+  getSingleSemester
 };

@@ -18,7 +18,6 @@ const sendReponse = <T>(res: Response, data: IApiReponse<T>): void => {
     success: data.success,
     message: data.message || null,
     meta:data.meta || null ||undefined,
-    // meta: data.meta || { page: 0, limit: 0, total: 0 },
     data: data.data || null,
   };
 
