@@ -4,7 +4,7 @@ import ApiError from '../../../errors/ApiError';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
-import { academicSemesterTitleCodeMapper } from './academicSemester.constant';
+import { academicSemesterSearchableFields, academicSemesterTitleCodeMapper } from './academicSemester.constant';
 import { IAcademicSemester, IAcademicSemesterFilters } from './academicSemester.interface';
 import { AcademicSemester } from './academicSemester.model';
 
@@ -27,11 +27,12 @@ const gellAllSemesters = async (
 ): Promise<IGenericResponse<IAcademicSemester[]>> => {
 
 
-  const { searchTerm } = filters;
+  const { searchTerm , ...filtersData} = filters;
 
-  const academicSemesterSearchableFields =['title','code','year']
+  // const academicSemesterSearchableFields =['title','code','year']
   const andConditions=[];
 
+  // hadle the serchTerm part
   if(searchTerm){
     andConditions.push({
       $or: academicSemesterSearchableFields.map((field)=>({
@@ -39,6 +40,15 @@ const gellAllSemesters = async (
             $regex:searchTerm,
             $options:'i'
           }
+      }))
+    })
+  }
+
+  // handle filters data part
+  if(Object.keys(filtersData).length){
+    andConditions.push({
+      $and:Object.entries(filtersData).map(([field,value])=>({
+        [field]:value
       }))
     })
   }
@@ -76,8 +86,12 @@ const gellAllSemesters = async (
     sortConditions[sortBy] = sortOrder;
   }
 
+
+  const whereConditions =andConditions.length >0 ? {$and:andConditions} : {}
+
   //ekane query ta chalabo model er uperey
-  const result = await AcademicSemester.find({$and:andConditions})
+  // const result = await AcademicSemester.find({$and:andConditions})
+  const result = await AcademicSemester.find(whereConditions)
     .sort(sortConditions)
     .skip(skip)
     .limit(limit);

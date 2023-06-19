@@ -39,6 +39,16 @@
             "date": 1687190993412,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-19-06-22-error.log",
             "hash": "fe1e8276ab6b6559cdacd7acd4ebb7c1bb02ee852e3630372974f8848f2502bd"
+        },
+        {
+            "date": 1687196743263,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-19-06-23-error.log",
+            "hash": "46e9cbaf5715000363f84ef6450786bb295753c5851592d38a02af3311ad49ca"
+        },
+        {
+            "date": 1687197600225,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-20-06-00-error.log",
+            "hash": "643de70d53cc89e27ba8658a7aae4534a36947dec348a6b39c00907eac927abf"
         }
     ],
     "hashType": "sha256"
