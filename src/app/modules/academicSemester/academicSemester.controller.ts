@@ -30,6 +30,8 @@ const gellAllSemesters = catchAsync(
 
     const filters =pick(req.query,['searchTerm'])
     const paginationOptions =pick(req.query, paginationFields);
+
+    
  
     const result = await AcademicSemesterService.gellAllSemesters(filters,paginationOptions);
 
