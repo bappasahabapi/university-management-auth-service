@@ -4,9 +4,9 @@ import { paginationFields } from '../../../constants/pagination';
 import catchAsync from '../../../shared/catchAsync';
 import pick from '../../../shared/pick';
 import sendResponse from '../../../shared/sendResponse';
+import { academicSemesterFilterableFields } from './academicSemester.constant';
 import { IAcademicSemester } from './academicSemester.interface';
 import { AcademicSemesterService } from './academicSemester.service';
-import { academicSemesterFilterableFields } from './academicSemester.constant';
 
 const createSemester = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
@@ -26,7 +26,7 @@ const createSemester = catchAsync(
 );
 
 const gellAllSemesters = catchAsync( 
-  async (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response) => {
 
     // const filters =pick(req.query,['searchTerm','title','code','year'])
     const filters =pick(req.query,academicSemesterFilterableFields)
@@ -43,13 +43,13 @@ const gellAllSemesters = catchAsync(
       meta: result.meta,
       data: result.data, 
     });
-    next();
+
   }
 
 );
 
 const getSingleSemester =catchAsync(
-  async(req:Request,res:Response,next:NextFunction)=>{
+  async(req:Request,res:Response)=>{
     const id =req.params.id;
 
     const result =await AcademicSemesterService.getSingleSemester(id);
@@ -62,12 +62,11 @@ const getSingleSemester =catchAsync(
       data:result
 
     });
-    next(); 
   }
 );
 
 const updateSemester=catchAsync(
-  async(req:Request,res:Response,next:NextFunction)=>{
+  async(req:Request,res:Response)=>{
     const id =req.params.id;
     const updatedData= req.body;
 
@@ -81,7 +80,6 @@ const updateSemester=catchAsync(
       data:result
 
     });
-    next(); 
   }
 );
 
