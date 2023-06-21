@@ -1,19 +1,26 @@
 
--    UM-11 🔏 Error handling basic
----
--    UM-10 🔏 manage log using library
--    UM-9.2 🔏 customized logs | custom log format
--    UM-9.1 🔏 seperate success logs and error logs
--    UM-9 🔏 set up basic logger
----
--    UM-8 🦜 eslint customized
+## Branches:
 
----
-- UM-3 👍Project Setup
-- UM-4 👍Setup express,mongoose,cors,parser
-- UM-5 👍Setup Eslint,Prettier,Husky,Lint stage
-- UM-6 👍Create User Interface and Models
-- UM-7 👍Create user service
+| Branch Name                                   | description         |
+| --------------------------------------------- | ------------------- |
+| UM-3 👍 Project SetupProject Setup            | basic project setup |
+| UM-4 👍 Setup express,mongoose,cors,parser    | ---                 |
+| UM-5 👍Setup Eslint,Prettier,Husky,Lint stage | ---                 |
+| UM-5 👍Setup Eslint,Prettier,Husky,Lint stage | ---                 |
+| UM-6 👍Create User Interface and Models       | ---                 |
+| UM-7 👍Create user service                    | ---                 |
+
+| Branch Name               | description |
+| ------------------------- | ----------- |
+| UM-8 🦜 eslint customized | ---         |
+
+| Branch Name                                    | description |
+| ---------------------------------------------- | ----------- |
+| UM-9 🔏 set up basic logger                    | ---         |
+| UM-9.1 🔏 separate success logs and error logs | ---         |
+| UM-9.2 🔏 customized logs                      | ---         |
+| UM-10 🔏 manage log using library              | ---         |
+| UM-11 🔏 Error handling basic                  | ---         |
 
 **switch branch**
 
