@@ -18,5 +18,7 @@ AcademicSemesterController.updateSemester);
 router.get('/',AcademicSemesterController.gellAllSemesters);
 // router.get('/:id',AcademicSemesterController.getSingleSemester) // kaj kore na tai uprey
 
+router.delete('/:id',AcademicSemesterController.deleteSemester)
+
 
 export const AcademicSemesterRoutes = router;
