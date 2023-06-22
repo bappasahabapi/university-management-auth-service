@@ -1,5 +1,7 @@
 ## Branches:
 
+**👥 User:**
+
 | Branch Name                                   | description         |
 | --------------------------------------------- | ------------------- |
 | UM-3 👍 Project SetupProject Setup            | basic project setup |
@@ -8,10 +10,10 @@
 | UM-5 👍Setup Eslint,Prettier,Husky,Lint stage | ---                 |
 | UM-6 👍Create User Interface and Models       | ---                 |
 | UM-7 👍Create user service                    | ---                 |
+| UM-8 🦜 eslint customized |      ---  |
 
-| Branch Name               | description |
-| ------------------------- | ----------- |
-| UM-8 🦜 eslint customized | ---         |
+
+**🪵  Logger-Setup**
 
 | Branch Name                                    | description |
 | ---------------------------------------------- | ----------- |
@@ -19,7 +21,8 @@
 | UM-9.1 🔏 separate success logs and error logs | ---         |
 | UM-9.2 🔏 customized logs                      | ---         |
 | UM-10 🔏 manage log using library              | ---         |
-| UM-11 🔏 Error handling basic                  | ---         |
+
+**📦  Error-Handling +ZOD setup**
 
 | Branch Name                                  | description |
 | -------------------------------------------- | ----------- |
@@ -29,6 +32,8 @@
 | UM-11.3 🪲 Common Error Pattern for frontend | ---         |
 | UM-11.4 🪲 handleValidation ErrorHandler     | ---         |
 | UM-11.6 🪲 zod error handling                | ---         |
+
+**🏫  Academic Semester**
 
 | Branch Name                                         | description |
 | --------------------------------------------------- | ----------- |
@@ -45,6 +50,8 @@
 | 🐞 UM-12.9-final                                    | ---         |
 | 🐞 UM-13-done                                       | ---         |
 
+**📖Pagination + 🔎Filtering**
+
 | Branch Name                                    | description |
 | ---------------------------------------------- | ----------- |
 | 👨‍🏫 UM-14.0                                     | ---         |
@@ -58,7 +65,34 @@
 | 👨‍🏫 UM-14.7-dynamic-searching                   | ---         |
 | 👨‍🏫 UM-14.8-done-searching-filtering-pagination | ---         |
 | 👨‍🏫 UM-14.9-create-single-semester              | ---         |
-| 👨‍🏫 UM-14.9-get-single-semester-by-id           | ---         |
+| 👨‍🏫 UM-14.10-handle-cast-error          | ---         |
+| 👨‍🏫  UM-14.11-update-semester-operation        | ---         |
+| 👨‍🏫  UM-14.12-implement-validatio-on-update        | ---         |
+| 👨‍🏫  UM-14.13-handle-can-not-set-header-problem        | ---         |
+| 👨‍🏫  UM-14.14-delete-operation        | ---         |
+
+
+**🕍 Academic Faculty**
+
+| Branch Name                                    | description |
+| ---------------------------------------------- | ----------- |
+| 🔔 UM-15.0-Academic-Faculty   | ---         |
+| 🔔 UM-15.0-Academic-Faculty-create-vallidation-zod   | ---         |
+| 🔔 UM-15.1-Academic-Faculty-create-vallidation-zod   | ---         |
+| 🔔 UM-15.2-Academic-Faculty-get-routes   | ---         |
+| 🔔 UM-15.3-Academic-Faculty-get-single-data   | ---         |
+| 🔔 UM-15.4-Academic-Faculty-update   | ---         |
+| 🔔 UM-15.5-Academic-Faculty-delete   | ---         |
+| 🔔 UM-15.6-Academic-Faculty-finished   | ---         |
+
+
+**🤺 Academic Department**
+
+| Branch Name                                    | description |
+| ---------------------------------------------- | ----------- |
+| 🏁  UM-16.0-Academic-Department                                 | ---         
+| 🏁  UM-16.1-Academic-Department-Create                                  | ---         |
+
 
 
 **switch branch**
