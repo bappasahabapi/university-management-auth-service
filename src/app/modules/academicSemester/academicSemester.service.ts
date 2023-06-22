@@ -28,7 +28,7 @@ const gellAllSemesters = async (
 
   const { searchTerm, ...filtersData } = filters;
 
-  // const academicSemesterSearchableFields =['title','code','year']
+
   const andConditions = [];
 
   // hadle the serchTerm part
@@ -51,7 +51,6 @@ const gellAllSemesters = async (
       }))
     })
   }
-
 
 
   const { page, limit, skip, sortBy, sortOrder } = paginationHelpers.calculatePagination(paginationOptions)
