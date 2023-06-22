@@ -72,6 +72,21 @@ const updateFaculty=catchAsync(
         });
     }
 );
+const deleteFaculty=catchAsync(
+    async (req:Request,res:Response) => {
+        
+        const {id}=req.params;
+
+        const result =await AcademicFacultyService.deleteFaculty(id)
+
+        sendReponse<IAcademicFaculty>(res,{
+            statusCode:httpStatus.OK,
+            success:true,
+            message:'Academic Faculty deleted successfully',
+            data:result
+        });
+    }
+);
 
 
 
@@ -79,5 +94,6 @@ export const AcademicFacultyController ={
     createFaculty,
     getAllFaculties,
     getSingleFaculty,
-    updateFaculty
+    updateFaculty,
+    deleteFaculty
 }
