@@ -99,6 +99,11 @@
             "date": 1687429182588,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-22-06-16-error.log",
             "hash": "4bffa6d72500319563a0b8ddfe8e8bbff459d11ec60e54dcbfd362819e5dff7f"
+        },
+        {
+            "date": 1687432932234,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-22-06-17-error.log",
+            "hash": "0ae1f6d42645d7946a09367297b8e95c42ec9547beb37354a80e1603129814db"
         }
     ],
     "hashType": "sha256"
