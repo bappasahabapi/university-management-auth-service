@@ -12,6 +12,8 @@ router.post(
     AcademicFacultyController.createFaculty
 );
 
+router.get('/:id',AcademicFacultyController.getSingleFaculty)
+
 router.get('/',AcademicFacultyController.getAllFaculties)
 
 export const AcademicFacultyRoutes=router;

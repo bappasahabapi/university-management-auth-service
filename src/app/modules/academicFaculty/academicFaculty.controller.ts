@@ -39,11 +39,27 @@ const getAllFaculties=catchAsync(
             data:result.data
         });
     }
-)
+);
+
+const getSingleFaculty=catchAsync(
+    async (req:Request,res:Response) => {
+        
+        const {id}=req.params;
+        const result =await AcademicFacultyService.getSingleFaculty(id)
+
+        sendReponse<IAcademicFaculty>(res,{
+            statusCode:httpStatus.OK,
+            success:true,
+            message:'Academic Faculty fetched successfully',
+            data:result
+        });
+    }
+);
 
 
 
 export const AcademicFacultyController ={
     createFaculty,
-    getAllFaculties
+    getAllFaculties,
+    getSingleFaculty
 }

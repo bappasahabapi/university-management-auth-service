@@ -13,7 +13,6 @@ const createFaculty = async (payload: IAcademicFaculty): Promise<IAcademicFacult
     return result;
 };
 
-
 const gellAllFaculties = async (
     filters: IAcademicFacultyFilters,
     paginationOptions: IPaginationOptions
@@ -72,7 +71,13 @@ const gellAllFaculties = async (
     }
 
 
-}
+};
+
+const getSingleFaculty=async(id:string) : Promise<IAcademicFaculty | null> =>{
+
+    const result =await AcademicFaculty.findById(id);
+    return result;
+};
 
 
 
@@ -80,6 +85,7 @@ const gellAllFaculties = async (
 
 export const AcademicFacultyService = {
     createFaculty,
-    gellAllFaculties
+    gellAllFaculties,
+    getSingleFaculty
     
 }
