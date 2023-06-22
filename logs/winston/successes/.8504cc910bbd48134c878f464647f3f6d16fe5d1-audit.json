@@ -74,6 +74,11 @@
             "date": 1687406103179,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-22-06-09-success.log",
             "hash": "57e6a193e4bcf8cf312420629ef0a6a3fcff8e260c24bd3eff072103f0be6efd"
+        },
+        {
+            "date": 1687407630489,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-22-06-10-success.log",
+            "hash": "9895b89cfad8c615bbec80b1e29d87c9be06b252abf3c6a5f6f114d0e3698d1c"
         }
     ],
     "hashType": "sha256"
