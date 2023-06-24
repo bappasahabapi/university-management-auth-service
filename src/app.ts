@@ -2,7 +2,7 @@ import cors from 'cors';
 import express, { Application, NextFunction, Request, Response } from 'express';
 import httpStatus from 'http-status';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
-import { generateStudentId } from './app/modules/user/user.utils';
+import { generateFacultyId } from './app/modules/user/user.utils';
 import routes from './app/routes';
 const app: Application = express();
 
@@ -33,17 +33,19 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 });
 
 //testing
-/* const academicSemester = {
+const academicSemester = {
     code: '01',
     year: '2025'
 };
 
 const testId = async () => {
-    const testStudentId = await generateStudentId(academicSemester);
-    console.log(testStudentId)
+    // const testStudentId = await generateStudentId(academicSemester);
+    // console.log(testStudentId);
+    const testFacultyId = await generateFacultyId();
+    console.log(testFacultyId);
 }
 
-testId() */
+testId()
 
 
 export default app;

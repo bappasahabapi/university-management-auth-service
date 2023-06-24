@@ -1,0 +1,7 @@
+### Create User
+POST   http://localhost:5001/api/v1/users/create-user
+Content-Type: application/json
+
+{
+    "role":"student"
+}
