@@ -2,6 +2,7 @@ import cors from 'cors';
 import express, { Application, NextFunction, Request, Response } from 'express';
 import httpStatus from 'http-status';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import { generateStudentId } from './app/modules/user/user.utils';
 import routes from './app/routes';
 const app: Application = express();
 
@@ -13,10 +14,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/api/v1/', routes);
 
-//Testing
-// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
-//   throw new Error('Testing Error logger')
-// })
 
 //global error handler
 app.use(globalErrorHandler);
@@ -31,8 +28,22 @@ app.use((req: Request, res: Response, next: NextFunction) => {
             // path: '.',
             message: 'API is not found'
         }]
-    })
-    next()
-})
+    });
+    next();
+});
+
+//testing
+/* const academicSemester = {
+    code: '01',
+    year: '2025'
+};
+
+const testId = async () => {
+    const testStudentId = await generateStudentId(academicSemester);
+    console.log(testStudentId)
+}
+
+testId() */
+
 
 export default app;
