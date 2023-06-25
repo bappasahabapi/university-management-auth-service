@@ -33,19 +33,19 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 });
 
 //testing
-const academicSemester = {
-    code: '01',
-    year: '2025'
-};
+// const academicSemester = {
+//     code: '01',
+//     year: '2025'
+// };
 
-const testId = async () => {
-    // const testStudentId = await generateStudentId(academicSemester);
-    // console.log(testStudentId);
-    const testFacultyId = await generateFacultyId();
-    console.log(testFacultyId);
-}
+// const testId = async () => {
+//     // const testStudentId = await generateStudentId(academicSemester);
+//     // console.log(testStudentId);
+//     const testFacultyId = await generateFacultyId();
+//     console.log(testFacultyId);
+// }
 
-testId()
+// testId()
 
 
 export default app;
