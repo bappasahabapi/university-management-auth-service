@@ -6,51 +6,6 @@
     "auditLog": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/.8504cc910bbd48134c878f464647f3f6d16fe5d1-audit.json",
     "files": [
         {
-            "date": 1686935925824,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-16-06-23-success.log",
-            "hash": "e65237a2e82997587d58acf003584c8d4950518d9ad22db9c7acdb8ab3a116af"
-        },
-        {
-            "date": 1686938403285,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-17-06-00-success.log",
-            "hash": "6df483cd6ac07385b13755480feaf837b87fd0bfbfb4324799a66b6b09f19668"
-        },
-        {
-            "date": 1686942011403,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-17-06-01-success.log",
-            "hash": "f6efdf65766befa10ccf1348af2c00c8c9a1c276d14c8f44e112ecbcc4371c35"
-        },
-        {
-            "date": 1686979224317,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-17-06-11-success.log",
-            "hash": "1a7a287e21c27493ffd03c3d894641c58f72768e87eef7dd4db92a8f9796431a"
-        },
-        {
-            "date": 1686981619295,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-17-06-12-success.log",
-            "hash": "9785460154214c3f948bfb98cffa56bfecd83409f2f4efb5f540b0d653bc1a00"
-        },
-        {
-            "date": 1687189756102,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-19-06-21-success.log",
-            "hash": "b2e06770182f074a75f15129728df7feda894578b7d879f54a346ecf569a3488"
-        },
-        {
-            "date": 1687190993410,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-19-06-22-success.log",
-            "hash": "0dbabb95480553ff31614df89822428d11250cb8d9f80d5ee8d2ca00275ec6c7"
-        },
-        {
-            "date": 1687196743261,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-19-06-23-success.log",
-            "hash": "441638b0b3eedd257de77a1b8d145f51406fd7931a8cd31668e4066d293dc318"
-        },
-        {
-            "date": 1687197600223,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-20-06-00-success.log",
-            "hash": "a21c0ff322bfbc5934cdd98ef2e45b3ad37b427f75ae8671b70bf5ebe6e04f7f"
-        },
-        {
             "date": 1687362895539,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-21-06-21-success.log",
             "hash": "5cbfbfb28474e3166658afd0357fbd665de46e33a59f702f4ce472e1b126b24e"
@@ -109,6 +64,11 @@
             "date": 1688127290099,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-30-06-18-success.log",
             "hash": "a63172b728cd497cb47fa9a5b892cfcf918af8433890da436c48e3297b37f4cd"
+        },
+        {
+            "date": 1688489363323,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/successes/bappa-2023-04-07-22-success.log",
+            "hash": "713c539dc7349004a0fa2f3faa4583feb648016d9893a47612ec5e4ef02d47dc"
         }
     ],
     "hashType": "sha256"

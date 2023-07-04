@@ -6,51 +6,6 @@
     "auditLog": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/.ffc6115d2d1c0ba7ac1eeec2c91005b33903842d-audit.json",
     "files": [
         {
-            "date": 1686935921447,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-16-06-23-error.log",
-            "hash": "860560fcdefc4104c2958d961f606a484a7754243be44f8ce1e394d7aeb367ad"
-        },
-        {
-            "date": 1686938476399,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-17-06-00-error.log",
-            "hash": "a7ea114ed8abd0866290f2843ec103c31f93de3d55e6a31bf275f65765ab515f"
-        },
-        {
-            "date": 1686942011405,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-17-06-01-error.log",
-            "hash": "a76bf36d70d013b27f6d340b43fa8ca2ee5348fad72c970542730e76b7320291"
-        },
-        {
-            "date": 1686979224321,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-17-06-11-error.log",
-            "hash": "a09392df8e88f0ab6ee96645c417586dea1dc866f913e1441a0fc763bffab8dd"
-        },
-        {
-            "date": 1686981619298,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-17-06-12-error.log",
-            "hash": "c6f2c344859efde1127e1ff688817a39f71d978ca897048e444caba4c9edaeff"
-        },
-        {
-            "date": 1687189756104,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-19-06-21-error.log",
-            "hash": "c398bbeba57973d9b7bacf302171b58a9e305e0fead3c95aea4f2f7a38c2380d"
-        },
-        {
-            "date": 1687190993412,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-19-06-22-error.log",
-            "hash": "fe1e8276ab6b6559cdacd7acd4ebb7c1bb02ee852e3630372974f8848f2502bd"
-        },
-        {
-            "date": 1687196743263,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-19-06-23-error.log",
-            "hash": "46e9cbaf5715000363f84ef6450786bb295753c5851592d38a02af3311ad49ca"
-        },
-        {
-            "date": 1687197600225,
-            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-20-06-00-error.log",
-            "hash": "643de70d53cc89e27ba8658a7aae4534a36947dec348a6b39c00907eac927abf"
-        },
-        {
             "date": 1687362895541,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-21-06-21-error.log",
             "hash": "7367c70fc34575b75eb4a3987ad58b45525b4f8fa9dd7c77abf6f4c7ce3a05d1"
@@ -109,6 +64,11 @@
             "date": 1688127290101,
             "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-30-06-18-error.log",
             "hash": "8dfbdfd9d34d374c66564b16b323ea47578e218cd167f1c27cbe9597365564f7"
+        },
+        {
+            "date": 1688489363327,
+            "name": "/Users/bappasaha/Desktop/university-management-auth-service/logs/winston/errors/bappa-2023-04-07-22-error.log",
+            "hash": "812d4ec32d417c32866440fdabbeb26b03b07034e714c8dec970d54ceb23b44e"
         }
     ],
     "hashType": "sha256"

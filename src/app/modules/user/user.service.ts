@@ -60,6 +60,8 @@ const createStudent = async (student: IStudent, user: IUser): Promise<IUser | nu
     throw error;
   }
 
+
+  // user--> student -->[academicSemester,academicDepartment,academicFaculty]
   if (newUserAllData) {
     newUserAllData = await User.findOne({ id: newUserAllData.id }).populate({
       path: 'student',
