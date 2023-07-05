@@ -85,8 +85,11 @@ const updateStudent = async (
     throw new ApiError(httpStatus.NOT_FOUND, 'Student not found !');
   }
 
+
+  //destructure the ambeded fields
   const { name, guardian, localGuardian, ...studentData } = payload;
 
+  //copy the studentData
   const updatedStudentData: Partial<IStudent> = { ...studentData };
 
   /* const name ={
@@ -96,7 +99,7 @@ const updateStudent = async (
   }
 */
 
-  // dynamically handling
+  //TODO: dynamically handling
 
   if (name && Object.keys(name).length > 0) {
     Object.keys(name).forEach(key => {
@@ -106,9 +109,10 @@ const updateStudent = async (
   }
   if (guardian && Object.keys(guardian).length > 0) {
     Object.keys(guardian).forEach(key => {
-      const guardianKey = `guardian.${key}` as keyof Partial<IStudent>; // `guardian.fisrtguardian`
+      const guardianKey = `guardian.${key}` as keyof Partial<IStudent>;     // `guardian.fisrtguardian`
       (updatedStudentData as any)[guardianKey] =
-        guardian[key as keyof typeof guardian]; // updatedStudentData['guardian.motherContactNo']=guardian[motherContactNo]
+        guardian[key as keyof typeof guardian];    // updatedStudentData['guardian.motherContactNo']=guardian[motherContactNo]
+        
       // updatedStudentData --> object create --> guardian : { motherContactNo: 0177}
     });
   }

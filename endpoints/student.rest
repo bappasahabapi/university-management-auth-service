@@ -7,9 +7,9 @@ Content-Type: application/json
 
     "student": {
         "name": {
-            "firstName": "Mezbaul",
-            "lastName": "Abedin",
-            "middleName": "Forhan"
+            "firstName": "Bappa",
+            "lastName": "Saha",
+            "middleName": "Bapi"
         },
         "dateOfBirth": "24-04-1998",
         "gender": "male",
@@ -39,4 +39,16 @@ Content-Type: application/json
         }
 
       }
+}
+
+
+### update-student
+PATCH    http://localhost:5000/api/v1/students/330100002
+Content-Type: application/json
+
+{
+    "name":{
+        "middleName":"s"
+    },
+    "contactNo":"013"
 }
