@@ -1,15 +1,16 @@
-// filter find the exact matched
-export const facultyFilterableFields = [
+export const adminFilterableFields = [
     'searchTerm',
     'id',
+    'gender',
     'bloodGroup',
     'email',
     'contactNo',
     'emergencyContactNo',
+    'managementDepartment',
     'designation',
   ];
   
-  export const facultySearchableFields = [
+  export const adminSearchableFields = [
     'email',
     'contactNo',
     'emergencyContactNo',
