@@ -1,6 +1,7 @@
 ###    Branches:
 
-🪀 [18.5-user as admin](https://github.com/bappasahabapi/university-management-auth-service/tree/UM-18.6-user-as-admin)
+🪀 [18.7-managementDepartment](https://github.com/bappasahabapi/university-management-auth-service/tree/UM-18.7-managementDepartment)
+🪀 [18.6-user as admin](https://github.com/bappasahabapi/university-management-auth-service/tree/UM-18.6-user-as-admin)
 🪀 [18.5-user as faculty](https://github.com/bappasahabapi/university-management-auth-service/tree/UM-18.5-user-as-faculty)
 🪀 [18.4-user as student](https://github.com/bappasahabapi/university-management-auth-service/tree/UM-18.4-user-as-student)
 
