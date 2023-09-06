@@ -1,6 +1,7 @@
 ###    Branches:
 
-
+🪀 [18.5-user as student](https://github.com/bappasahabapi/university-management-auth-service/tree/UM-18.5-user-as-faculty)
+🪀 [18.4-user as student](https://github.com/bappasahabapi/university-management-auth-service/tree/UM-18.4-user-as-student)
 
 
 ![My Image](plan.png)
