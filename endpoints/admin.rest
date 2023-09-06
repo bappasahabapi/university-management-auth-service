@@ -1,0 +1,18 @@
+### Get all admins
+GET   http://localhost:5000/api/v1/admins
+Content-Type: application/json
+
+### Get single admin  by id
+GET   http://localhost:5000/api/v1/admins/A-00001
+Content-Type: application/json
+
+### update admin
+POST   http://localhost:5000/api/v1/admins/A-00001
+Content-Type: application/json
+
+{
+    "name":{
+        "lastName":"buddu"
+    },
+    "contactNo":"093"
+}

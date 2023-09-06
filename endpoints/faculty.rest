@@ -3,11 +3,11 @@ GET   http://localhost:5000/api/v1/faculties
 Content-Type: application/json
 
 ### Get single faculty  by id
-GET   http://localhost:5000/api/v1/F-00001
+GET   http://localhost:5000/api/v1/faculties/F-00001
 
 
 ### update faculty
-POST   http://localhost:5000/api/v1/F-0001
+POST   http://localhost:5000/api/v1/faculties/F-00001
 Content-Type: application/json
 
 {
