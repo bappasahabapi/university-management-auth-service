@@ -30,6 +30,7 @@ const createStudent = async (student: IStudent, user: IUser): Promise<IUser | nu
 
     session.startTransaction()
     const id: string | undefined = await generateStudentId(academicsemester) as string;
+    // const id= await generateStudentId(academicsemester)
 
     user.id = id
     student.id = id

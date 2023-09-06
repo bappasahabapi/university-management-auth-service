@@ -45,4 +45,30 @@ Content-Type: application/json
 }
 
 
+### Create User as Faculty
+POST   http://localhost:5000/api/v1/users/create-faculty
+Content-Type: application/json
 
+{
+    "password": "123456",     
+
+    "faculty": {
+        "name": {
+            "firstName": "Juel Shikder",
+            "lastName": "jiku"
+        },
+        "dateOfBirth": "24-04-1998",
+        "gender": "male",
+        "bloodGroup": "O+",
+        "email": "juwl@gmail.com",
+        "contactNo": "user_5",
+        "emergencyContactNo": "01600000000",
+        "presentAddress": "CTG",
+        "permanentAddress": "CTG",
+        "academicFaculty": "64f76b5cd726c9b3f02ba434",
+        "academicDepartment": "64f76cdfd726c9b3f02ba444",
+        "designation": "Professor",
+        "profileImage": "no image now"
+
+      }
+}
