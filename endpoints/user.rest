@@ -10,11 +10,11 @@ Content-Type: application/json
 
     "student": {
         "name": {
-            "firstName": "Bappa1",
-            "lastName": "Saha1",
-            "middleName": "Bapi1"
+            "firstName": "Aappa",
+            "lastName": "Saha",
+            "middleName": "Bapi"
         },
-        "dateOfBirth": "24-04-1996",
+        "dateOfBirth": "24-04-1998",
         "gender": "male",
         "bloodGroup": "O+",
         "email": "user@gmail.com",
@@ -22,20 +22,20 @@ Content-Type: application/json
         "emergencyContactNo": "01600000000",
         "presentAddress": "CTG",
         "permanentAddress": "CTG",
-        "academicFaculty": "64941bc242ccea8b8dc765f3",
-        "academicDepartment": "6494394ead478d653638a381",
-        "academicSemester": "649085108e1f4ac4cb069c0b",
+        "academicFaculty": "64f76b5cd726c9b3f02ba434",
+        "academicDepartment": "64f76cdfd726c9b3f02ba444",
+        "academicSemester": "649085178e1f4ac4cb069c0e",
         "guardian": {
-            "fatherName": "Daddy",
+            "fatherName": "MD.ABBU",
             "fatherOccupation": "Retired Teacher",
             "fatherContactNo": "01600000000",
-            "motherName": "Mummy",
+            "motherName": "Mrs.Ammu",
             "motherOccupation": "Housewife",
             "motherContactNo": "01600000000",
-            "address": "Thakurgaon"
+            "address": "CTG"
         },
         "localGuardian": {
-            "name": "BF Saha",
+            "name": "Zahid Hasan",
             "occupation": "Service Holder",
             "contactNo": "01600000000",
             "address": "Dhaka"
@@ -43,7 +43,6 @@ Content-Type: application/json
 
       }
 }
-
 
 
 

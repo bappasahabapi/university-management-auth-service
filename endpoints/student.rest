@@ -1,5 +1,21 @@
-### create-student
-POST   http://localhost:5001/api/v1/users/create-student
+     
+
+### Get all students
+GET  http://localhost:5000/api/v1/students
+Content-Type: application/json
+
+### Get single student by id
+GET  http://localhost:5000/api/v1/students/220100001
+Content-Type: application/json
+
+
+# //todo: first change this part other wise duplicate error occureed
+        # "academicFaculty": "64f76b5cd726c9b3f02ba434",
+        # "academicDepartment": "64f76cdfd726c9b3f02ba444",
+        # "academicSemester": "649085178e1f4ac4cb069c0e",
+
+### create-student [we dont create student from now . we crete user as a student]
+POST   http://localhost:5000/api/v1/users/create-student
 Content-Type: application/json
 
 {
@@ -7,7 +23,7 @@ Content-Type: application/json
 
     "student": {
         "name": {
-            "firstName": "Bappa",
+            "firstName": "Aappa",
             "lastName": "Saha",
             "middleName": "Bapi"
         },
@@ -19,9 +35,9 @@ Content-Type: application/json
         "emergencyContactNo": "01600000000",
         "presentAddress": "CTG",
         "permanentAddress": "CTG",
-        "academicFaculty": "64941bc242ccea8b8dc765f3",
-        "academicDepartment": "6494394ead478d653638a381",
-        "academicSemester": "649085108e1f4ac4cb069c0b",
+        "academicFaculty": "64f76b5cd726c9b3f02ba434",
+        "academicDepartment": "64f76cdfd726c9b3f02ba444",
+        "academicSemester": "649085178e1f4ac4cb069c0e",
         "guardian": {
             "fatherName": "MD.ABBU",
             "fatherOccupation": "Retired Teacher",
@@ -40,7 +56,6 @@ Content-Type: application/json
 
       }
 }
-
 
 ### update-student
 PATCH    http://localhost:5000/api/v1/students/330100002
