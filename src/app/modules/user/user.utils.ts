@@ -55,7 +55,7 @@ export const generateFacultyId = async (): Promise<string> => {
 
 // ------------------------------------------------- 
 
-//todo: Generate Admin id
+//todo: Generate Admin id [A-00001]
 
 export const findLastAdminId = async (): Promise<string | undefined> => {
   const lastFaculty = await User.findOne({ role: 'admin' }, { id: 1, _id: 0 })

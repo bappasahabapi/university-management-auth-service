@@ -153,6 +153,7 @@ const createAdmin = async (
   admin: IAdmin,
   user: IUser
 ): Promise<IUser | null> => {
+
   // default password
   if (!user.password) {
     user.password = config.default_admin_pass as string;
