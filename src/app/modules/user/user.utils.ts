@@ -12,7 +12,7 @@ export const findLastStudentId = async (): Promise<string | undefined> => {
 };
 
 //Generate student id
-export const generateStudentId = async (academicSemester: IAcademicSemester | null): Promise<string | undefined> => {
+export const generateStudentId = async (academicSemester: IAcademicSemester ): Promise<string | undefined> => {
   const currentId = (await findLastStudentId()) || (0).toString().padStart(5, '0'); //00000
 
   //increment by 1
@@ -20,7 +20,7 @@ export const generateStudentId = async (academicSemester: IAcademicSemester | nu
 
   //20 26
   incrementedId = `${academicSemester.year.substring(2)}${academicSemester.code}${incrementedId}`;
-  console.log(incrementedId)
+  // console.log(incrementedId)
   return incrementedId;
 };
 
@@ -35,7 +35,7 @@ export const findLastFacultyId = async (): Promise<string | undefined> => {
   return lastFaculty?.id ? lastFaculty.id.substring(2) : undefined
 };
 
-// generate faculty Id
+// generate faculty Id [F-00001]
 export const generateFacultyId = async (): Promise<string> => {
 
   const currentId = (await findLastFacultyId()) || (0).toString().padStart(5, '0');

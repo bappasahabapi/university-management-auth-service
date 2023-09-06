@@ -3,6 +3,7 @@ import { IStudent } from '../student/student.interface';
 
 
 export type IUser = {
+  faculty: Types.ObjectId;
   id: string |undefined ;
   role: string ;
   password: string;
