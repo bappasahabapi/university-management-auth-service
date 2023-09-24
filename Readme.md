@@ -1,5 +1,6 @@
 ###    Branches:
 
+-   74 - 🔑🔏 [Authentication](https://github.com/bappasahabapi/university-management-auth-service/tree/UM/74/auth)
 -   73 - 🔑 [Hash Password Using bcrypt](https://github.com/bappasahabapi/university-management-auth-service/tree/UM/73/hash-password)
 ---
 -    🪀 [18.7-managementDepartment](https://github.com/bappasahabapi/university-management-auth-service/tree/UM-18.7-managementDepartment)
