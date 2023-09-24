@@ -18,7 +18,7 @@ import {
   generateStudentId,
 } from './user.utils';
 
-import bcrypt from 'bcrypt';
+// import bcrypt from 'bcrypt';
 
 
 
@@ -32,14 +32,14 @@ const createStudent = async (
   if (!user.password) {
     user.password = config.default_student_pass as string;
   }
-  //todo: Hash Password
+  //todo: Hash Password 
   /* bcrypt.hash(myPlaintextPassword, saltRounds).then(function(hash) {
     // Store hash in your password DB.
 }); */
-  user.password = await bcrypt.hash(
+ /*  user.password = await bcrypt.hash(
     user.password,
     Number(config.bycrypt_salt_rounds)
-  );
+  ); */
 
 
   // set role
@@ -117,10 +117,10 @@ const createFaculty = async (
   }
 
 //todo: Hash Password
-user.password = await bcrypt.hash(
+/* user.password = await bcrypt.hash(
   user.password,
   Number(config.bycrypt_salt_rounds)
-);
+); */
   // set role
   user.role = 'faculty';
 
@@ -185,10 +185,10 @@ const createAdmin = async (
     user.password = config.default_admin_pass as string;
   }
 //todo: Hash Password
-user.password = await bcrypt.hash(
+/* user.password = await bcrypt.hash(
   user.password,
   Number(config.bycrypt_salt_rounds)
-);
+); */
   // set role
   user.role = 'admin';
 
