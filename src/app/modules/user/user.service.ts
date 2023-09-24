@@ -115,6 +115,12 @@ const createFaculty = async (
   if (!user.password) {
     user.password = config.default_faculty_pass as string;
   }
+
+//todo: Hash Password
+user.password = await bcrypt.hash(
+  user.password,
+  Number(config.bycrypt_salt_rounds)
+);
   // set role
   user.role = 'faculty';
 
@@ -178,6 +184,11 @@ const createAdmin = async (
   if (!user.password) {
     user.password = config.default_admin_pass as string;
   }
+//todo: Hash Password
+user.password = await bcrypt.hash(
+  user.password,
+  Number(config.bycrypt_salt_rounds)
+);
   // set role
   user.role = 'admin';
 
