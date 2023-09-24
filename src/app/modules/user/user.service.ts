@@ -89,6 +89,8 @@ const createStudent = async (
   return newUserAllData;
 };
 
+
+//todo: Create Faculty
 const createFaculty = async (
   faculty: IFaculty,
   user: IUser
