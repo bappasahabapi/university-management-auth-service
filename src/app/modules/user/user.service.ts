@@ -18,14 +18,30 @@ import {
   generateStudentId,
 } from './user.utils';
 
+import bcrypt from 'bcrypt';
+
+
+
+//todo: Create Student
 const createStudent = async (
   student: IStudent,
   user: IUser
 ): Promise<IUser | null> => {
+
   // default password
   if (!user.password) {
     user.password = config.default_student_pass as string;
   }
+  //todo: Hash Password
+  /* bcrypt.hash(myPlaintextPassword, saltRounds).then(function(hash) {
+    // Store hash in your password DB.
+}); */
+  user.password = await bcrypt.hash(
+    user.password,
+    Number(config.bycrypt_salt_rounds)
+  );
+
+
   // set role
   user.role = 'student';
 
@@ -151,6 +167,8 @@ const createFaculty = async (
 
   return newUserAllData;
 };
+
+//todo: Create Admin
 const createAdmin = async (
   admin: IAdmin,
   user: IUser
