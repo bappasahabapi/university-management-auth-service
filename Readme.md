@@ -23,7 +23,7 @@
 | UM-9 🔏 set up basic logger                    | ---         |
 | UM-9.1 🔏 separate success logs and error logs | ---         |
 | UM-9.2 🔏 customized logs                      | ---         |
-| UM-10 🔏 manage log using library              | ---         |
+| UM-10 🔏 manage log using library              |[UM-10](https://github.com/your-repo-url/tree/UM-10)         |
 
 **📦  Error-Handling +ZOD setup**
 
