@@ -3,7 +3,7 @@
 # response of create student:
 # {"_id":{"$oid":"65101ab1d341f7cd8fecc4ed"},"id":"220100001","role":"student","password":"$2b$12$Qv6Gkvk4ZQ9GaATX.bGF1eR.xPMZu2lCG4lHCvG.0wEmhuWe4LbWu","student":{"$oid":"65101ab1d341f7cd8fecc4e7"},"createdAt":{"$date":{"$numberLong":"1695554225578"}},"updatedAt":{"$date":{"$numberLong":"1695554225578"}},"__v":{"$numberInt":"0"}}
 
-### Create User as Student
+# Create User as Student
 POST   http://localhost:5000/api/v1/users/create-student
 Content-Type: application/json
 

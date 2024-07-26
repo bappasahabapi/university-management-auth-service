@@ -18,9 +18,6 @@ import {
   generateStudentId,
 } from './user.utils';
 
-// import bcrypt from 'bcrypt';
-
-
 
 //todo: Create Student
 const createStudent = async (

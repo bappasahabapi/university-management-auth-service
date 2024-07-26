@@ -49,10 +49,6 @@ userSchema.pre('save', async function (next) {
   //hashing user password
   const user =this;
   // console.log(this) --> er vitore password ta pabo
-  // this.password = await bcrypt.hash(
-  //   this.password,
-  //   Number(config.bycrypt_salt_rounds)
-  // )
   user.password = await bcrypt.hash(
     user.password,
     Number(config.bycrypt_salt_rounds)
