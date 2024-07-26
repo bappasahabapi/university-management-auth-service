@@ -1,6 +1,6 @@
 ## Still working now fix the jwt
-#### Till now final working branch: https://github.com/bappasahabapi/university-management-auth-service/tree/UM-18.3-Student
-
+#### Till now final working branch: 
+- [UM/74/auth](https://github.com/your-repo-url/tree/UM/74/auth) -- auth part is not working
 ## Branches:
 
 **👥 User:**
