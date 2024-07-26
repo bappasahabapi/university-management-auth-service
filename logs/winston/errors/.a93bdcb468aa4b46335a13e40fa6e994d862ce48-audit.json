@@ -1,0 +1,65 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/.a93bdcb468aa4b46335a13e40fa6e994d862ce48-audit.json",
+    "files": [
+        {
+            "date": 1693932938292,
+            "name": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/bappa-2023-05-09-22-error.log",
+            "hash": "039a5cf505a6ac089140569297ff104ebee9daa7ec19f4d3d142db8fca9962e1"
+        },
+        {
+            "date": 1693933372900,
+            "name": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/bappa-2023-05-09-23-error.log",
+            "hash": "02b6bd538a3093fd58db326a223401d0b7e269e37613737c9b3c75611c66eb86"
+        },
+        {
+            "date": 1693936929989,
+            "name": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/bappa-2023-06-09-00-error.log",
+            "hash": "ed58307e27a6550265e312ef4f7e9d426b38ab581dc26021d7f30449c053d709"
+        },
+        {
+            "date": 1693973671939,
+            "name": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/bappa-2023-06-09-10-error.log",
+            "hash": "9c8cb23d72f9edb6af710da6a41e9daf4c50d3186b296e27803168a6555f4842"
+        },
+        {
+            "date": 1693976507720,
+            "name": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/bappa-2023-06-09-11-error.log",
+            "hash": "5679861db4db19e5a4f64a4c68dd9dc889a3b82be496ba2449309f5ea41744ca"
+        },
+        {
+            "date": 1693985363950,
+            "name": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/bappa-2023-06-09-13-error.log",
+            "hash": "de7750aa6f70b2390ab509e95eec33f432bf7da690b77dc63891074af1bab932"
+        },
+        {
+            "date": 1693987392401,
+            "name": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/bappa-2023-06-09-14-error.log",
+            "hash": "0937f864d882578476fa84e0eaa7e5c8d2f2108cd857b9325f6c9870f6f48f08"
+        },
+        {
+            "date": 1693996048210,
+            "name": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/bappa-2023-06-09-16-error.log",
+            "hash": "225712943daea72eea8a7ef8fa5047ffe01f68ae84a55209133b4110dd7b9860"
+        },
+        {
+            "date": 1693998144680,
+            "name": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/bappa-2023-06-09-17-error.log",
+            "hash": "c7fea59d06135e7cef1c630a2ed37c8ea2111a10d06bc0458665b43e89b721e9"
+        },
+        {
+            "date": 1694017185045,
+            "name": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/bappa-2023-06-09-22-error.log",
+            "hash": "fd44665feaa36aa16ac24d2112fe9ccf847ce00c270378a1050455cb6e07bb10"
+        },
+        {
+            "date": 1694019777295,
+            "name": "/Users/bappasaha/Desktop/dektop/files/university-management-auth-service/logs/winston/errors/bappa-2023-06-09-23-error.log",
+            "hash": "d3f15703632f25be2149490f657826d17be5332a93a3e8b0cb3e179c4046f2dc"
+        }
+    ],
+    "hashType": "sha256"
+}
